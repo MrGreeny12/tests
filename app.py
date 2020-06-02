@@ -4,7 +4,6 @@ import os
 
 directories, documents = {}, []
 
-# нужно протестировать
 def update_date():
     current_path = str(os.path.dirname(os.path.abspath(__file__)))
     f_directories = os.path.join(current_path, 'fixtures/directories.json')
